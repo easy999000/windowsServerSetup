@@ -13,7 +13,7 @@ namespace setup
         {
             string s2 = Environment.Version.ToString();
              
-            string serversPath1 = "powerStationWindwosServer.exe";
+            string serversPath1 = System.Configuration.ConfigurationManager.AppSettings["serversPath1"];
              
             if (i== '2')
             {
